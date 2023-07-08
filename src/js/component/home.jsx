@@ -7,9 +7,9 @@ const Home = (props) => {
 	return (
 		<div className="container bg-dark text-light d-flex justify-content-center">
 			<div className="clock border rounded my-4 mx-2 p-3"><i className="fa-regular fa-clock"></i></div>
-			<div className="sixth border rounded my-4 mx-2 p-3">{props.sixthDigit % 10}</div>
-			<div className="fifth border rounded my-4 mx-2 p-3">{props.fifthDigit % 10}</div>
-			<div className="fourth border rounded my-4 mx-2 p-3">{props.fourthDigit % 10}</div>
+			<div className="sixth border rounded my-4 mx-2 p-3"> {props.sixthDigit % 10}</div>
+			<div className="fifth border rounded my-4 mx-2 p-3"> {props.fifthDigit % 10}</div>
+			<div className="fourth border rounded my-4 mx-2 p-3"> {props.fourthDigit % 10}</div>
 			<div className="third border rounded my-4 mx-2 p-3">{props.thirdDigit % 10}</div>
 			<div className="second border rounded my-4 mx-2 p-3">{props.secondDigit % 10}</div>
 			<div className="first border rounded my-4 mx-2 p-3">{props.firstDigit % 10}</div>
